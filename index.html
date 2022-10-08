@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">ALEX</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <br>
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>ALEXANDER BOHORQUEZ</h1>
+            <h2>Estudiante ADSI- Análisis y Diseño de Sistemas de Información</h2>
+            <BR></BR>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Alexander Bohorquez.</span> Soy estudiante de ADSI- Análisis y Diseño de Sistemas de Información, me apasiona todo el mundo de la programación y además soy una persona proactiva, organizada y responsable con buenas relaciones interpersonales. Siempre tengo la mejor disposición para realizar mi trabajo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            17-03-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3213040396
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            alexanderbohorquez96@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle 51c # 89 a 15 sur, Bosa Nueva Esperanza
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <A href="docs/CV-BRAYAN-ALEXANDER-BOHORQUEZ-RAMOS.pdf" download="" style="text-decoration:none;">
+                    <button>
+                        Descargar CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </A>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>ADSI - ANÁLISIS Y DESARROLLO DE SISTEMAS DE INFORMACIÓN-</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje - SENA</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>INTRODUCCIÓN A LA PROGRAMACIÓN CON PYTHON</h4>
+                        <span class="casa">CET Corporación de Educación Tecnológica Colsubsidio</span>
+                        <span class="fecha">2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>INTRODUCCIÓN A LA PROGRAMACIÓN CON JAVASCRIPT</h4>
+                        <span class="casa">CET Corporación de Educación Tecnológica Colsubsidio</span>
+                        <span class="fecha">2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>COMERCIO INTERNACIONAL</h4>
+                        <span class="casa">Servicio Nacional de Aprendizaje - SENA</span>
+                        <span class="fecha">2016 - 2017</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>AGENTE DE VENTAS Y SOPORTE</h4>
+                        <span class="casa">Intelcia</span>
+                        <span class="fecha">2022</span>
+                        <p>-Venta de tarjetas de credito.</p>
+                        <p>-Soporte app y pagina web del banco.</p>
+                        <p>-Manejo de bases de datos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>ASISTENTE ADMINISTRATIVO</h4>
+                        <span class="casa">KineLogistics</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>-planificación, organización, digitación y seguimiento &nbsp;de procesos comerciales y administrativos.</p>
+                        <p>-Conocimientos en CRM, paquete Office, ordenes de &nbsp;compra y facturación electrónica.</p>
+                        <p>-Asistencia en resolución de problemas y búsqueda &nbsp;de soluciones para problemas en existentes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>BACKOFFICE</h4>
+                        <span class="casa">AMERICAS BPS</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>-Seguimiento de la satisfacción del cliente para todos &nbsp;los productos y servicios de la empresa.</p>
+                        <p>-Asistencia en resolución de problemas y búsqueda &nbsp;de soluciones para problemas en existentes.</p>
+                        <p>-planificación, organización, digitación y seguimiento &nbsp;de procesos comerciales y administrativos.</p>
+                        <p>-Conocimientos en CRM, paquete Office, ordenes de &nbsp;compra y facturación electrónica.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
